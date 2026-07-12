@@ -1,0 +1,40 @@
+body {
+  background: rgb(138, 189, 138);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-out { 
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  input {
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  background: beige;
+  &::placeholder{
+    color: pink;
+  }
+ 
+}
+  button{
+  width: 200px;
+  background: palevioletred;
+  border-radius: 20px;
+}
+}
+/* */
+.empty{
+  background-color: beige;
+  height: 80px;
+  width: 200px;
+  border-radius: 20px;
+}
