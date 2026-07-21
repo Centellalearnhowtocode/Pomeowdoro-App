@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>login.html</file>
+        <file>welcome.html</file>
+        <file>style.css</file>
+    </qresource>
+</RCC>
