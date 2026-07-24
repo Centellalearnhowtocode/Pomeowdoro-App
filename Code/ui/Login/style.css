@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.may{
+    background-color: #6d2e46;
+    
+}
+
+.headerp2{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+
+.back{
+    padding: 5px 15px;
+    background-color: #ff00c8;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    color: aliceblue;
+    a{
+        color: aliceblue;
+    }
+}
+
+.back:hover{
+    transition: all 0.3s ease;
+    background-color: #db15ce;
+    color: rgb(39, 45, 88);
+    a{
+        color: rgb(215, 221, 250);
+    }
+}
+
+.back:active{
+    transition: all 0.3s ease;
+    transform: scale(0.98);
+}
+
+.back a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Anton", sans-serif;
+    
+}
+
+
+.icons1{
+    font-size: 20px;
+}
+
+.title{
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    color: azure;
+    text-shadow: 2px 3px 10px;
+}
+
+.logo{
+    font-size: 50px;
+    color: azure;
+}
+
+.container{
+    text-align: center;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow:
+      0 0 10px white,
+      0 0 10px #ff00c8,
+      0 0 15px #00c3ff;
+  }
+  5% {
+    box-shadow:
+      0 0 20px white,
+      0 0 20px #ff00c8,
+      0 0 30px #00c3ff;
+  }
+  100% {
+    box-shadow:
+      0 0 10px white,
+      0 0 10px #ff00c8,
+      0 0 15px #00c3ff;
+  }
+  20% {
+    box-shadow:
+      0 0 20px white,
+      0 0 20px #ff00c8,
+      0 0 30px #00c3ff;
