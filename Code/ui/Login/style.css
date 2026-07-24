@@ -74,6 +74,72 @@
 
 .container{
     text-align: center;
+    border: none;
+    margin-top: 10px;
+}
+
+.title-login{
+    font-size: 25px;
+    color: aliceblue;
+    text-shadow: 2px 3px 9px;
+}
+
+.formorder{
+    padding: 25px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-label{
+    color: #6d2e46 ;
+}
+
+
+input{
+    height: 60px;
+    background-color: #6d2e46;
+    border-radius: 10px;
+    color: aqua;
+}
+
+
+
+form{
+    background-color: #fae1e8;
+    border-radius: 30px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.createaccoun1{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #6d2e46;
+    color: rgb(253, 255, 255);
+    font-size: 20px;
+}
+
+.createaccoun1:hover{
+    transition: all 0.7s ease;
+    background-color: #ff00c8;
+
+}
+
+.createaccoun1:active{
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+    color: #6d2e46;
 }
 
 @keyframes pulse {
