@@ -1,2 +1,5 @@
-find_package(Qt6 REQUIRED COMPONENTS Widgets WebEngineWidgets Sql)
-target_link_libraries(POMEOWDORO PRIVATE Qt6::Widgets Qt6::WebEngineWidgets Qt6::Sql)
+add_executable(Pomeowdoro
+    src/main.cpp
+    src/authmanager.cpp
+    src/database.cpp
+)

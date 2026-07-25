@@ -1,0 +1,10 @@
+Anything you wanna communicate please comment here mi rith.
+
+
+<<<<<<< HEAD
+MI rith gg ter eii
+
+mix aii omagor
+=======
+MI rith gg ter eii
+>>>>>>> 6231a68842eb06afb4e371d0bf8c0961fd35d189
