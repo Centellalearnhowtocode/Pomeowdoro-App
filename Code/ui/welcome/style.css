@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap");
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.may-container{
+    margin-top: 60px;
+    background-color: #6d2e46;
+}
+
+.image img{
+    border: none;
+    border-radius: 100px;
+    box-shadow: 10px 10px 15px black;
+
+}
+
+.titke1{
+    color: #545454;
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    text-shadow: 6px 7px 15px white;
+}
