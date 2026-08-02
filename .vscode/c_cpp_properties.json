@@ -12,7 +12,11 @@
             ],
             "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
             "cStandard": "c17",
+<<<<<<< HEAD
+            "cppStandard": "gnu++20",
+=======
             "cppStandard": "gnu++17",
+>>>>>>> 6231a68842eb06afb4e371d0bf8c0961fd35d189
             "intelliSenseMode": "windows-gcc-x64"
         }
     ],
