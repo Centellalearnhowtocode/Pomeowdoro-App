@@ -3,3 +3,5 @@ add_executable(Pomeowdoro
     src/authmanager.cpp
     src/database.cpp
 )
+
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core widg)
