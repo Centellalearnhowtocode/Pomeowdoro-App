@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.may-container {
+  margin-top: 60px;
+  background: #fae1e8;
+}
+
+.image img {
+  border: none;
+  border-radius: 100px;
+  background: white;
+  box-shadow: 10px 10px 15px black;
+}
+
+.titke1 {
+  color: #545454;
+  font-family: "Anton", sans-serif;
+  font-size: 60px;
+  text-shadow: 6px 7px 15px white;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.createaccoun1{
+  display: flex;
+  align-items: row;
+    gap: 10px;
+    height: 40px;
+    border-radius: 10px;
+    background: #6d2e46;
+    color: rgb(253, 255, 255);
+    font-size: 20px;
+}
+
+.createaccoun1:hover{
+    transition: all 0.7s ease;
+    background: #ff00c8;
+
+}
+
+.createaccoun1:active{
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+    color: #6d2e46;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow:
+      0 0 10px white,
+      0 0 10px #ff00c8,
+      0 0 15px #00c3ff;
+  }
+  5% {
+    box-shadow:
+      0 0 20px white,
+      0 0 20px #ff00c8,
+      0 0 30px #00c3ff;
+  }
+  100% {
+    box-shadow:
+      0 0 10px white,
+      0 0 10px #ff00c8,
+      0 0 15px #00c3ff;
+  }
+  20% {
+    box-shadow:
+      0 0 20px white,
+      0 0 20px #ff00c8,
+      0 0 30px #00c3ff;
