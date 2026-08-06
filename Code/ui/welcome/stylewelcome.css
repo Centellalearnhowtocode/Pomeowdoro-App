@@ -1,58 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap");
 
-* {
-  padding: 0;
+*{
   box-sizing: border-box;
+  padding: 0;
   margin: 0;
 }
 
-.may-container {
-  margin-top: 60px;
-  background: #fae1e8;
-}
 
-.image img {
-  border: none;
-  border-radius: 100px;
-  background: white;
-  box-shadow: 10px 10px 15px black;
-}
-
-.titke1 {
-  color: #545454;
-  font-family: "Anton", sans-serif;
-  font-size: 60px;
-  text-shadow: 6px 7px 15px white;
-}
-.remember{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.createaccoun1{
+ .may-container {
+  background: #6d2e46;
   display: flex;
-  align-items: row;
-    gap: 10px;
-    height: 40px;
-    border-radius: 10px;
-    background: #6d2e46;
-    color: rgb(253, 255, 255);
-    font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
 }
 
-.createaccoun1:hover{
-    transition: all 0.7s ease;
-    background: #ff00c8;
-
+.image{
+  
+  border-radius: 200px;
+  padding: 10px;
+  background: white;
+  box-shadow: 15px 20px 15px;
 }
 
-.createaccoun1:active{
-    transform: scale(0.98);
-    transition: all 0.3s ease;
-    color: #6d2e46;
-}
 
+.welcomeheader {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #d8e2dc;
+  margin-bottom: 20px;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+}
 @keyframes pulse {
   0% {
     box-shadow:
@@ -77,3 +69,135 @@
       0 0 20px white,
       0 0 20px #ff00c8,
       0 0 30px #00c3ff;
+  }
+}
+.pomeowdoro {
+  font-size: 36px;
+  font-weight: bold;
+  color: #545454;
+  font-family: "Anton", sans-serif;
+}
+.autbutton {
+  display: flex;
+  flex-direction: column;
+  button {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #fae1e8;
+    color: #545454;
+    border: none;
+    cursor: pointer;
+    box-shadow:
+      0 0 5px purple,
+      0 3px 0 pink,
+      0 0 5px #00c3ff;
+    a {
+      text-decoration: none;
+      color: #545454;
+    }
+  }
+}
+
+<!-- Create Account -- > .createaccount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.formorder {
+  display: flex;
+  flex-direction: column;
+  input {
+    border-radius: 5px;
+    background: #f4acb7;
+    border: none;
+  }
+}
+.createaccount {
+  button {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f4acb7;
+    color: #545454;
+    border: none;
+    cursor: pointer;
+    box-shadow:
+      0 0 5px purple,
+      0 3px 0 pink,
+      0 0 5px #00c3ff;
+    a {
+      text-decoration: none;
+      color: #545454;
+    }
+  }
+}
+.createaccbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.container {
+  background: #ffe5d9;
+  margin-top: 20px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.back {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #d8e2dc;
+  margin-bottom: 20px;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow:
+      0 0 10px white,
+      0 0 10px #ff00c8,
+      0 0 15px #00c3ff;
+  }
+  5% {
+    box-shadow:
+      0 0 20px white,
+      0 0 20px #ff00c8,
+      0 0 30px #00c3ff;
+  }
+  100% {
+    box-shadow:
+      0 0 10px white,
+      0 0 10px #ff00c8,
+      0 0 15px #00c3ff;
+  }
+  20% {
+    box-shadow:
+      0 0 20px white,
+      0 0 20px #ff00c8,
+      0 0 30px #00c3ff;
+  }
+}
+.headerp2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  h2 {
+    color: #d8e2dc;
+    text-shadow:
+      0 0 5px white,
+      0 0 10px #ff00c8,
+      0 0 15px #00c3ff;
+  }
+}
+.catpaw {
+  color: pink;

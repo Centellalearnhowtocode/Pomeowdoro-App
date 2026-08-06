@@ -7,7 +7,7 @@
 }
 
 .may{
-    background-color: #6d2e46;
+    background: #6d2e46;
     
 }
 
@@ -35,7 +35,7 @@
 
 .back:hover{
     transition: all 0.3s ease;
-    background-color: #db15ce;
+    background: #db15ce;
     color: rgb(39, 45, 88);
     a{
         color: rgb(215, 221, 250);
@@ -103,7 +103,7 @@
 
 input{
     height: 60px;
-    background-color: #6d2e46;
+    background: #6d2e46;
     border-radius: 10px;
     color: aqua;
 }
@@ -166,3 +166,5 @@ form{
       0 0 20px white,
       0 0 20px #ff00c8,
       0 0 30px #00c3ff;
+  }
+}
