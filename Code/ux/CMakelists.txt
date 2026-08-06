@@ -1,7 +1,26 @@
-add_executable(Pomeowdoro
-    src/main.cpp
-    src/authmanager.cpp
-    src/database.cpp
+cmake_minimum_required(VERSION 4.4)
+project(ux)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
+Set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(Qt6 COMPONENTS Core Gui Widgets REQUIRED)
+
+set(SOURCES
+authmanager.cpp
+autmanager.h
+backend.cpp
+backend.h
+main.cpp
+mainwindow.cpp
+mainwindow.h
+mainwindow.ui
+resources.qrc
 )
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Core widg)
+add_executable(${POMEWDORO_APP} ${SOURCES})
+
+target_link_libraries(${POMEWDORO_APP} Qt6::Core Qt6::Gui Qt6::Widgets)
